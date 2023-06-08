@@ -19,13 +19,13 @@ struct ContentView: View {
                 
                 Image("image")
                 
-                Text("About Meg")
+             
                 
                 Text(textTitle)
                 
                 
-                Button("About me"){
-                    textTitle = ("My favorite color's blue. My birthday is 06/06/06. I own a dog named Chip. I have 2 siblings. I work backstage for my schools musicals.")   }
+                Button("About Meg"){
+                    textTitle = ("My favorite color's blue. My birthday is 06/06/06. I own a dog named Chip. I have 2 siblings. I work backstage for my school's musicals.")   }
                 .font(.title2)
                 .buttonStyle(.borderedProminent)
                 .tint(Color(hue: 0.625, saturation: 0.938, brightness: 0.958, opacity: 0.765))
